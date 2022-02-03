@@ -1,0 +1,16 @@
+body {
+    max-width: 1000;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(235, 235, 235);
+  }
+  
+  #data {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 75%;
+    max-width: 750px;
+  }

@@ -1,47 +1,28 @@
+#inputForm{
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+}
 
-body {
-    /*Set the width of the page to be a mac of 1080 pixels*/
-    max-width: 1000;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(235, 235, 235);
-  }
+#input{
+  width: 60%;
+  height: 80%;
+  font-size:x-large;
+  text-align: center;
+}
 
-  #data {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 75%;
-    max-width: 750px;
-  }
+h1{
+  font-size: 60pt;
+}
 
-  #inputForm{
-    display: inline-block;
-    width: 100%;
-    height: 100px;
-  }
+h2{
+  font-size: 45pt;
+}
+.submit{
+  width: 35%;
+  height: 100%;
+}
 
-  #input{
-    width: 60%;
-    height: 80%;
-    font-size:x-large;
-    text-align: center;
-  }
-
-  h1{
-    font-size: 60pt;
-  }
-  
-  h2{
-    font-size: 45pt;
-  }
-  .submit{
-    width: 35%;
-    height: 100%;
-  }
-
-  .img{
-    width: 80%;
-  }
+.img{
+  width: 80%;
+}

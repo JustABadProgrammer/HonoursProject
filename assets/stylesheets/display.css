@@ -1,0 +1,16 @@
+#venueInformation{
+    display: inline-block;
+}
+
+.infoDiv{
+    width: 300px;
+    max-height: 350px;
+    border-radius: 25px;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.venueImage{
+    width: 75%;
+}

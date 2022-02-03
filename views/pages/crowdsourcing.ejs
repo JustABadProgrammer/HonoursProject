@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+       <%- include('../partials/head') %>
+        <title>Index</title>
+        <script src="scripts\crowdsourcing.js"></script>
+        <link rel="stylesheet" href="assets\stylesheets\crowdsource.css">
+    </head>
+    <body>
+
+        <div id="data">
+
+            <!--This is the div that will intitially be presented to the user
+            It will contain the logo of the venue alongise a number input and a submit button-->
+            <div id="dataInput" style="display: none;">
+                <img src="images/placeholder.jpg" class="img" id="LogoImage" >
+                </br></br>
+                <div id="inputForm">
+                    <input type="number" id="input">
+                    <button type="button" id="InputText" class="submit">Submit</button>
+                </div>
+            </div>
+
+            <!--This is the div that will be presented when the user submits a number
+            Containing a thank you and a confirmation of how many items were added-->
+            <div id="muchThank" style="display: none;">
+                <h1>Thank You for the Update :)</h1>
+                <h2 id="text"></h2>
+                
+            </div>
+
+        </div>
+
+    </body>
+</html>
