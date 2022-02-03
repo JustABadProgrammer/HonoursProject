@@ -43,7 +43,7 @@ app.post("/updateVenue", function (req, res){
   console.log(req.body)
   db.collection('PastVenueInformation').insertOne(req.body, function(err, result) {
     if (err) throw err;
-    res.send("POGCHAMP")
+    res.send("Done")
     });
   });
   

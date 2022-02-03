@@ -46,16 +46,9 @@ $(document).ready(function () {
 
         var num = $('input').val();
 
-        //WILL CHANGE TO GET REASONABLE NUMBER FROM DATABASE
-        var reasonable = 10;
-
         if (num != '' && num < reasonable) {
             console.log(loc + " - " + num)
 
-            //Loc will then be the ID of a row in a database
-            //The assosicated number with this ID will be updated with the num value
-
-            //Nicename will be taken from database
 
             var output = niceName + " will be updated with " + num + " visitors"
 
@@ -81,7 +74,7 @@ $(document).ready(function () {
                 data: formData, // data in json format
                 async: true, // enable or disable async (optional, but suggested as false if you need to populate data afterwards)
                 success: function (response, textStatus, jqXHR) {
-                    console.log("Poggers");
+                    console.log("Updated Database");
                     $('#dataInput').fadeOut('slow');
                     $('#dataInput').promise().done(function(){
                         $("#muchThank").fadeIn(300);
@@ -96,7 +89,7 @@ $(document).ready(function () {
 
             
         } else {
-            alert("No Trolling :)")
+            alert("No no...Too many Peoples")
         }
 
 

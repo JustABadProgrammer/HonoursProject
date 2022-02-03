@@ -1,5 +1,5 @@
 $(document).ready(function () {
-console.log("Cum")
+
     var xhttp = new XMLHttpRequest();
 
     xhttp.onreadystatechange = function () {
