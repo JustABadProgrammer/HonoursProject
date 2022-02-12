@@ -56,3 +56,17 @@ app.get("/getLiveVenueInfo", function(req, res){
   });
 });
 
+app.get("/getAPInfo", function(req, res){
+  db.collection('AccessPointInfo').find().toArray(function(err, result){
+    if (err) throw err;
+    res.send(JSON.stringify(result));
+  });
+});
+
+app.post("/getAPCurrentInfo", function(req, res){
+  db.collection('CurrentAccessPointInformation').find(req.body).toArray(function(err, result){
+    if (err) throw err;
+    res.send(JSON.stringify(result));
+  });
+});
+

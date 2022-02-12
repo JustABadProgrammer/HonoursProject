@@ -26,7 +26,8 @@ $(document).ready(function () {
             obj = arrObj[0];
 
             console.log(obj)
-
+            reasonable = obj["Reasonable"];
+            console.log(reasonable)
             niceName = obj["Name"];
             document.title = niceName;
             $("#LogoImage").attr("src", "images/" + loc + ".png");
@@ -44,9 +45,10 @@ $(document).ready(function () {
 
     $(".submit").click(function () {
 
-        var num = $('input').val();
+        var num = parseInt($('#input').val());
 
-        if (num != '' && num < reasonable) {
+        console.log(num + " - " + reasonable);
+        if (num != '' && num <= reasonable) {
             console.log(loc + " - " + num)
 
 
