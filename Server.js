@@ -3,6 +3,7 @@ const url = "mongodb://localhost:27017/";
 const express = require('express');
 const bodyParser = require('body-parser')
 const app = express();
+const heatmapjs = require("heatmap.js");
 app.use(express.static('assets'))
 app.use(bodyParser.urlencoded({ extended: true }))
 app.set('view engine', 'ejs');
@@ -26,19 +27,22 @@ app.get('/crowdsourcing', function (req, res) {
 });
 
 app.post("/getVenueInfo", function(req, res){
-  db.collection('VenueInformation').find(req.body).toArray(function(err, result){
+  db.collection('CurrentVenueInformation').find(req.body).toArray(function(err, result){
     if (err) throw err;
     res.send(JSON.stringify(result));
   });
 });
 
 app.post("/updateVenue", function (req, res){
+
   var query = { Venue_Name: req.body.Venue_Name };
   var newvalues = {
     $set: req.body
- }
+ } 
  
   db.collection('CurrentVenueInformation').updateOne(query,newvalues, function(err, result) {
+  //db.collection('CurrentVenueInformation').insertOne(req.body, function(err, result) {
+
   if (err) throw err;
   console.log(req.body)
   db.collection('PastVenueInformation').insertOne(req.body, function(err, result) {

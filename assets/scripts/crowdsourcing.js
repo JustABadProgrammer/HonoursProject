@@ -7,6 +7,8 @@ $(document).ready(function () {
 
     var reasonable = 0;
     var niceName = loc;
+    var top = 0;
+    var left = 0;
 
     var obj = null;
     console.log(loc);
@@ -15,6 +17,7 @@ $(document).ready(function () {
         Venue_Name:loc
     }
 
+    console.log(curVenue)
     $.ajax({
         url: "/getVenueInfo", // Url of backend (can be python, php, etc..)
         type: "POST", // data type (can be get, post, put, delete)
@@ -26,10 +29,12 @@ $(document).ready(function () {
             obj = arrObj[0];
 
             console.log(obj)
-            reasonable = obj["Reasonable"];
+            reasonable = parseInt(obj["Reasonable"]);
             console.log(reasonable)
             niceName = obj["Name"];
             document.title = niceName;
+            top = obj["Too_On_Img"]
+            left = obj["Left_On_Img"]
             $("#LogoImage").attr("src", "images/" + loc + ".png");
             $('#dataInput').fadeIn(300);
         },
@@ -67,7 +72,7 @@ $(document).ready(function () {
                 Name: niceName,
                 Capacity: num,
                 Date: date,
-                Time: time
+                Time: time,
             };
 
             $.ajax({
