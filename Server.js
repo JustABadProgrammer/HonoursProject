@@ -4,6 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser')
 const app = express();
 const heatmapjs = require("heatmap.js");
+
 app.use(express.static('assets'))
 app.use(bodyParser.urlencoded({ extended: true }))
 app.set('view engine', 'ejs');
@@ -61,7 +62,7 @@ app.get("/getLiveVenueInfo", function(req, res){
 });
 
 app.get("/getAPInfo", function(req, res){
-  db.collection('AccessPointInfo').find().toArray(function(err, result){
+  db.collection('CurrentAccessPointInformation').find().toArray(function(err, result){
     if (err) throw err;
     res.send(JSON.stringify(result));
   });

@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "6207033b832a230dddf9aaf1"
+  },
+  "Location": "Flat",
+  "Devices": 12,
+  "Date": "12-Feb-2022",
+  "Time": "01:28:11",
+  "Location_ID": "001",
+  "Top_On_Img": 300,
+  "ip": "192.168.1",
+  "Height": 400,
+  "Width": 650,
+  "X": 45,
+  "Y": 50,
+  "Left_On_Img": 300
+},{
+  "_id": {
+    "$oid": "62210b16a1f076a0ee624f7f"
+  },
+  "Location": "PI_2",
+  "Devices": 3,
+  "Date": "12-Feb-2022",
+  "Time": "01:28:11",
+  "Location_ID": "002",
+  "Top_On_Img": 300,
+  "ip": "192.168.1",
+  "Height": 400,
+  "Width": 650,
+  "X": 45,
+  "Y": 450,
+  "Left_On_Img": 300
+}]

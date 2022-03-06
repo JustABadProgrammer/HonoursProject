@@ -17,10 +17,23 @@ $(document).ready(function () {
                 for (var i = 0; i < liveData.length; i++) {
                     var info = liveData[i];
                     //  console.log(info)
-                    var div = '<div class="infoDiv" id="info_' + info["Venue_Name"] + '"  style="display:none;">'
+
+                    var loi = info["Left_On_Img"];
+                    var toi = info["Top_On_Img"];
+
+                    var infoLoi = 50;
+                    if(loi >75){
+                        infoLoi = -300;
+                    }
+                    var infoToi = 50;
+                    if(toi >75){
+                        infoToi = -180;
+                    }
+
+                    var div = '<div class="infoDiv" id="info_' + info["Venue_Name"] + '"  style="display:none; left:' + infoLoi + 'px; top:' + infoToi + 'px;">'
                     div += '<img src="images/' + info["Venue_Name"] + '.png" class="venueImageInfo">'
                     div += '<h2>Current Capacity : ' + info["Capacity"] + '</h2>'
-                    div += '<h4>Recorded on : ' + info["Time"] + " " + info["Date"] + '</h4></br>'
+                    div += '<h4>'+getRecordedOn(info)+'</h4></br>'
                     div += '</div>'
                     venuesDiv.set(info["Venue_Name"], div);
                     //divCode += div;
@@ -28,7 +41,7 @@ $(document).ready(function () {
 
                     console.log(info)
                     console.log(info["Left_On_Img"])
-                    var imgDiv = '<div id="' + info["Venue_Name"] + 'Div" class="imgDiv" style="left:' + info["Left_On_Img"] + '%; top:' + info["Top_On_Img"] + '%">'
+                    var imgDiv = '<div id="' + info["Venue_Name"] + 'Div" class="imgDiv" style="left:' + loi + '%; top:' + toi + '%">'
                     imgDiv += '<img src="images/' + info["Venue_Name"] + '.png" id="' + info["Venue_Name"] + '"class="venueImage">';
                     imgDiv += div;
                     imgDiv += '</div>'
@@ -47,6 +60,9 @@ $(document).ready(function () {
         xhttp.send();
     }
 
+    function getRecordedOn(e){
+        return 'Recorded on : ' + e["Time"] + ",   " + e["Date"]
+    }
 
     function getAPInfo() {
         var xhttp = new XMLHttpRequest();
@@ -55,6 +71,45 @@ $(document).ready(function () {
 
             if (this.readyState == 4 && this.status == 200) {
 
+
+                liveData = JSON.parse(this.responseText);
+
+                var c = document.getElementById("MaskDrawing");
+                var ctx = c.getContext("2d");
+                ctx.beginPath();
+
+                console.log(liveData)
+                for(let data of liveData){
+                    //ctx.fillRect(20, 20, 10, 10);
+                  //  ctx.fillStyle = "rgb(120,0,0)";
+                  rgb = 'rgb(('+data["Devices"]+'*20),0,0)';
+                  console.log(rgb)
+                  var r = data["Devices"] * 20
+                  var g = 0
+                  var b = 0
+                    ctx.fillStyle = 'rgb('+r+','+g+','+b+')';
+                    ctx.fillRect(data["X"], data["Y"], data["Width"], data["Height"]);
+                    console.log(data["X"], data["Y"], data["Width"], data["Height"]);
+                }
+                ctx.stroke();getRecordedOn
+                $('#recOnTxt').html(getRecordedOn(liveData[liveData.length-1]))
+                console.log(getRecordedOn(liveData[liveData.length-1]))
+               // $('#recOnTxt').html(liveData[liveData.length-1][""])
+                /*
+                var points = []
+
+                for (var i = 0; i < liveData.length; i++) {
+                    console.log(liveData[i])
+                    var point = {
+                        xPos: liveData[i]["Left_On_Img"],
+                        yPos: liveData[i]["Top_On_Img"],
+                        value: (parseInt(liveData[i]["Devices"]) * 5)
+                    }
+                    points.push(point)
+                    console.log(point)
+                }
+
+                
                 var heatmapInstance = h337.create({
                     // only container is required, the rest will be defaults
                     container: document.querySelector('#heatmapContainer')
@@ -80,7 +135,7 @@ $(document).ready(function () {
                 }
 
                 heatmapInstance.setData(data);
-                /*
+                
                 var apDiv = "";
 
                 for (var i = 0; i < liveData.length; i++) {
@@ -90,9 +145,10 @@ $(document).ready(function () {
 
                 for (var i = 0; i < liveData.length; i++) {                    
                     getAP(liveData[i]["Location_ID"])
-                }*/
+                }
 
                 //$("#heatmap").html(divCode);
+                */
             }
         }
 
@@ -134,7 +190,6 @@ $(document).ready(function () {
     }
 
     $(document).click(function () {
-        console.log("Click");
         if (lastShown === "") {
         } else {
             $(lastShown).hide();
@@ -147,6 +202,12 @@ $(document).ready(function () {
     $(".venueImage").click(function (e) {
         e.stopPropagation();
         var imgID = '#info_' + this.id;
+
+        if (lastShown === "") {
+        } else {
+            $(lastShown).hide();
+            lastShown = "";
+        }
 
         if ($(imgID).is(':visible')) {
             $(imgID).hide();
