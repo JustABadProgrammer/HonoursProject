@@ -1,7 +1,9 @@
 #from pymongo import MongoClient
+from cgi import print_arguments
 import pymongo
 import time
 import sys
+import os
 import subprocess
 from datetime import datetime
 
@@ -53,8 +55,37 @@ def pinging(adr):
 
     return dev
 
+
+
+def angryPing(adr):
+    
+    #filepath = os.path.dirname(os.path.realpath(__file__))
+    
+    #print(filepath)
+    #os.system(filepath+'\ipscan-win64-3.8.2.exe -f:range 192.168.1.0 192.168.1.5 -o ' + filepath + '\log.txt')
+    #str = os.system('ping 192.168.1.254 -n 1 -w 500')
+
+    #print(str)
+
+    process = subprocess.Popen(['ping', '-n 4', 'python.org'], 
+                           stdout=subprocess.PIPE,
+                           universal_newlines=True)
+
+    output = process.stdout.readline()
+    print(output.strip())
+    # Do something else
+    return_code = process.poll()
+    if return_code is not None:
+        print('RETURN CODE', return_code)
+        # Process has finished, read rest of the output 
+        for output in process.stdout.readlines():
+            print(output.strip())
+
+
+angryPing("pog")
+
 #Looping infinately
-while(True):
+while(True == False):
     #Get information for each router saved in the database and loop through them
     for x in db["CurrentAccessPointInformation"].find():
         #Pull information from json
