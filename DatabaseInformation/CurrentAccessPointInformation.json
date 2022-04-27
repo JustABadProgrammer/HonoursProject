@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6207033b832a230dddf9aaf1"
+  },
+  "Location": "Flat",
+  "Devices": 9,
+  "Date": "26-Apr-2022",
+  "Time": "20:58:19",
+  "Location_ID": "001",
+  "Height": 405,
+  "Width": 655,
+  "X": 40,
+  "Y": 50,
+  "range": "192.168.1.1 192.168.1.255",
+  "WiFi": "voafone4641FE"
+},{
+  "_id": {
+    "$oid": "62210b16a1f076a0ee624f7f"
+  },
+  "Location": "PI_1",
+  "Devices": 3,
+  "Date": "26-Apr-2022",
+  "Time": "20:58:29",
+  "Location_ID": "002",
+  "Height": 385,
+  "Width": 655,
+  "X": 40,
+  "Y": 460,
+  "range": "10.10.10.1 10.10.10.255",
+  "WiFi": "voafone4641FE"
+}]

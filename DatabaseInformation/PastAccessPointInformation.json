@@ -1,0 +1,609 @@
+[{
+  "_id": {
+    "$oid": "620702b4cb25c8ad8b0ae592"
+  },
+  "Location": "Flat",
+  "Devices": 12,
+  "Date": "12-Feb-2022",
+  "Time": "00:43:32"
+},{
+  "_id": {
+    "$oid": "620703fcf7440b01739a5d9c"
+  },
+  "Location": "Flat",
+  "Devices": 12,
+  "Date": "12-Feb-2022",
+  "Time": "00:49:00"
+},{
+  "_id": {
+    "$oid": "620704336ff8fffe70b31705"
+  },
+  "Location": "Flat",
+  "Devices": 12,
+  "Date": "12-Feb-2022",
+  "Time": "00:49:55"
+},{
+  "_id": {
+    "$oid": "6207044a81f8e2a08a7eabef"
+  },
+  "Location": "Flat",
+  "Devices": 11,
+  "Date": "12-Feb-2022",
+  "Time": "00:50:18"
+},{
+  "_id": {
+    "$oid": "6207048178507ac18a97d14b"
+  },
+  "Location": "Flat",
+  "Devices": 11,
+  "Date": "12-Feb-2022",
+  "Time": "00:51:13"
+},{
+  "_id": {
+    "$oid": "620704c59a2f5f4d67e5dba6"
+  },
+  "Location": "Flat",
+  "Devices": 12,
+  "Date": "12-Feb-2022",
+  "Time": "00:52:21"
+},{
+  "_id": {
+    "$oid": "6207054894f7562ffd5d1a50"
+  },
+  "Location": "Flat",
+  "Devices": 13,
+  "Date": "12-Feb-2022",
+  "Time": "00:54:32"
+},{
+  "_id": {
+    "$oid": "6207057da2bd8f6483fe7bee"
+  },
+  "Location": "Flat",
+  "Devices": 12,
+  "Date": "12-Feb-2022",
+  "Time": "00:55:25"
+},{
+  "_id": {
+    "$oid": "620705a4e86105d901bee720"
+  },
+  "Location": "Flat",
+  "Devices": 12,
+  "Date": "12-Feb-2022",
+  "Time": "00:56:04"
+},{
+  "_id": {
+    "$oid": "620705c07dc3770cec611798"
+  },
+  "Location": "Flat",
+  "Devices": 12,
+  "Date": "12-Feb-2022",
+  "Time": "00:56:32"
+},{
+  "_id": {
+    "$oid": "620705d01e29aefbe02c3c55"
+  },
+  "Location": "Flat",
+  "Devices": 12,
+  "Date": "12-Feb-2022",
+  "Time": "00:56:48"
+},{
+  "_id": {
+    "$oid": "62070625e3d9aa42bc48546e"
+  },
+  "Location": "Flat",
+  "Devices": 13,
+  "Date": "12-Feb-2022",
+  "Time": "00:58:13"
+},{
+  "_id": {
+    "$oid": "6207065e2391befc9e4cd22a"
+  },
+  "Location": "Flat",
+  "Devices": 13,
+  "Date": "12-Feb-2022",
+  "Time": "00:59:10"
+},{
+  "_id": {
+    "$oid": "6207066b2391befc9e4cd22b"
+  },
+  "Location": "Flat",
+  "Devices": 12,
+  "Date": "12-Feb-2022",
+  "Time": "00:59:23"
+},{
+  "_id": {
+    "$oid": "62070cee53557b3024e702e7"
+  },
+  "Location": "Flat",
+  "Devices": 12,
+  "Date": "12-Feb-2022",
+  "Time": "01:27:10"
+},{
+  "_id": {
+    "$oid": "62070cfa53557b3024e702e8"
+  },
+  "Location": "Flat",
+  "Devices": 12,
+  "Date": "12-Feb-2022",
+  "Time": "01:27:22"
+},{
+  "_id": {
+    "$oid": "62070d0753557b3024e702e9"
+  },
+  "Location": "Flat",
+  "Devices": 13,
+  "Date": "12-Feb-2022",
+  "Time": "01:27:35"
+},{
+  "_id": {
+    "$oid": "62070d1353557b3024e702ea"
+  },
+  "Location": "Flat",
+  "Devices": 14,
+  "Date": "12-Feb-2022",
+  "Time": "01:27:47"
+},{
+  "_id": {
+    "$oid": "62070d1f53557b3024e702eb"
+  },
+  "Location": "Flat",
+  "Devices": 12,
+  "Date": "12-Feb-2022",
+  "Time": "01:27:59"
+},{
+  "_id": {
+    "$oid": "62070d2b53557b3024e702ec"
+  },
+  "Location": "Flat",
+  "Devices": 12,
+  "Date": "12-Feb-2022",
+  "Time": "01:28:11"
+},{
+  "_id": {
+    "$oid": "62599baa68a78b0a2a11220d"
+  },
+  "Location": "Flat",
+  "Devices": 4,
+  "Date": "15-Apr-2022",
+  "Time": "17:22:02"
+},{
+  "_id": {
+    "$oid": "62599bac68a78b0a2a11220e"
+  },
+  "Location": "PI_2",
+  "Devices": 4,
+  "Date": "15-Apr-2022",
+  "Time": "17:22:04"
+},{
+  "_id": {
+    "$oid": "6268121d9a077209a5b4d1de"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:39:09"
+},{
+  "_id": {
+    "$oid": "626812209a077209a5b4d1df"
+  },
+  "Location": "PI_2",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:39:12"
+},{
+  "_id": {
+    "$oid": "6268124aaf1f7d96f18130d3"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:39:54"
+},{
+  "_id": {
+    "$oid": "6268124eaf1f7d96f18130d4"
+  },
+  "Location": "PI_2",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:39:58"
+},{
+  "_id": {
+    "$oid": "6268128c53751d75f0d8b1d5"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:41:00"
+},{
+  "_id": {
+    "$oid": "626812b053751d75f0d8b1d6"
+  },
+  "Location": "PI_2",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:41:36"
+},{
+  "_id": {
+    "$oid": "62681313fc93340062cf2944"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:43:15"
+},{
+  "_id": {
+    "$oid": "62681316fc93340062cf2945"
+  },
+  "Location": "PI_2",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:43:18"
+},{
+  "_id": {
+    "$oid": "62681334f9a428c5dfdca6ca"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:43:48"
+},{
+  "_id": {
+    "$oid": "62681335f9a428c5dfdca6cb"
+  },
+  "Location": "PI_2",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:43:49"
+},{
+  "_id": {
+    "$oid": "62681343d5116f2c3f98d2f6"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:44:03"
+},{
+  "_id": {
+    "$oid": "62681345d5116f2c3f98d2f7"
+  },
+  "Location": "PI_2",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:44:05"
+},{
+  "_id": {
+    "$oid": "6268136227aa9b9af4dd75be"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:44:34"
+},{
+  "_id": {
+    "$oid": "6268136527aa9b9af4dd75bf"
+  },
+  "Location": "PI_2",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:44:37"
+},{
+  "_id": {
+    "$oid": "626813a427aa9b9af4dd75c0"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:45:40"
+},{
+  "_id": {
+    "$oid": "6268145f719ebc66b28c1a90"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:48:47"
+},{
+  "_id": {
+    "$oid": "626815141e6580d2ffd9177b"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:51:48"
+},{
+  "_id": {
+    "$oid": "6268152e2c532f234e35c8a4"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:52:14"
+},{
+  "_id": {
+    "$oid": "626815637ecd143aa58e958f"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:53:07"
+},{
+  "_id": {
+    "$oid": "626815637ecd143aa58e9590"
+  },
+  "Location": "PI_2",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:53:07"
+},{
+  "_id": {
+    "$oid": "626815953f2a7e75b693dccd"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:53:57"
+},{
+  "_id": {
+    "$oid": "626815e2541ddf5e15d88568"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:55:14"
+},{
+  "_id": {
+    "$oid": "626815e2541ddf5e15d88569"
+  },
+  "Location": "PI_2",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:55:14"
+},{
+  "_id": {
+    "$oid": "62681605b56c414b206be3ed"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:55:49"
+},{
+  "_id": {
+    "$oid": "62681605b56c414b206be3ee"
+  },
+  "Location": "PI_2",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:55:49"
+},{
+  "_id": {
+    "$oid": "6268161536526d1beb70e446"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:56:05"
+},{
+  "_id": {
+    "$oid": "6268161536526d1beb70e447"
+  },
+  "Location": "PI_2",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:56:05"
+},{
+  "_id": {
+    "$oid": "626816368859e14516deb185"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:56:38"
+},{
+  "_id": {
+    "$oid": "626816368859e14516deb186"
+  },
+  "Location": "PI_2",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:56:38"
+},{
+  "_id": {
+    "$oid": "626816c04258518361ba999a"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:58:56"
+},{
+  "_id": {
+    "$oid": "626816c04258518361ba999b"
+  },
+  "Location": "PI_2",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "16:58:56"
+},{
+  "_id": {
+    "$oid": "6268184193a9eb3c7292c337"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "17:05:21"
+},{
+  "_id": {
+    "$oid": "6268184193a9eb3c7292c338"
+  },
+  "Location": "PI_2",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "17:05:21"
+},{
+  "_id": {
+    "$oid": "62681f98dc22c66867034f6a"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "17:36:40"
+},{
+  "_id": {
+    "$oid": "62681f98dc22c66867034f6b"
+  },
+  "Location": "PI_2",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "17:36:40"
+},{
+  "_id": {
+    "$oid": "62681fe22a74d441d619627a"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "17:37:54"
+},{
+  "_id": {
+    "$oid": "62681fe22a74d441d619627b"
+  },
+  "Location": "PI_2",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "17:37:54"
+},{
+  "_id": {
+    "$oid": "62681ff19d0f9e6b61b90c53"
+  },
+  "Location": "Flat",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "17:38:09"
+},{
+  "_id": {
+    "$oid": "62681ff19d0f9e6b61b90c54"
+  },
+  "Location": "PI_2",
+  "Devices": null,
+  "Date": "26-Apr-2022",
+  "Time": "17:38:09"
+},{
+  "_id": {
+    "$oid": "62682071a8016e3142e45eb2"
+  },
+  "Location": "Flat",
+  "Devices": 14,
+  "Date": "26-Apr-2022",
+  "Time": "17:40:17"
+},{
+  "_id": {
+    "$oid": "6268207ba8016e3142e45eb3"
+  },
+  "Location": "PI_2",
+  "Devices": 0,
+  "Date": "26-Apr-2022",
+  "Time": "17:40:27"
+},{
+  "_id": {
+    "$oid": "6268349a18d4e497a083b911"
+  },
+  "Location": "Flat",
+  "Devices": 14,
+  "Date": "26-Apr-2022",
+  "Time": "19:06:18"
+},{
+  "_id": {
+    "$oid": "626834a318d4e497a083b912"
+  },
+  "Location": "PI_2",
+  "Devices": 0,
+  "Date": "26-Apr-2022",
+  "Time": "19:06:27"
+},{
+  "_id": {
+    "$oid": "62683eff2c1969675bbb1160"
+  },
+  "Location": "Flat",
+  "Devices": 15,
+  "Date": "26-Apr-2022",
+  "Time": "19:50:39"
+},{
+  "_id": {
+    "$oid": "62683f092c1969675bbb1161"
+  },
+  "Location": "PI_2",
+  "Devices": 0,
+  "Date": "26-Apr-2022",
+  "Time": "19:50:49"
+},{
+  "_id": {
+    "$oid": "62683f1712ccbb15d96ae9f7"
+  },
+  "Location": "Flat",
+  "Devices": 0,
+  "Date": "26-Apr-2022",
+  "Time": "19:51:03"
+},{
+  "_id": {
+    "$oid": "62683fcd9c500b9e61507e66"
+  },
+  "Location": "Flat",
+  "Devices": 0,
+  "Date": "26-Apr-2022",
+  "Time": "19:54:05"
+},{
+  "_id": {
+    "$oid": "62683fd09c500b9e61507e67"
+  },
+  "Location": "PI_2",
+  "Devices": 0,
+  "Date": "26-Apr-2022",
+  "Time": "19:54:08"
+},{
+  "_id": {
+    "$oid": "62684042fbef33944d8605a1"
+  },
+  "Location": "Flat",
+  "Devices": 0,
+  "Date": "26-Apr-2022",
+  "Time": "19:56:02"
+},{
+  "_id": {
+    "$oid": "62684044fbef33944d8605a2"
+  },
+  "Location": "PI_2",
+  "Devices": 0,
+  "Date": "26-Apr-2022",
+  "Time": "19:56:04"
+},{
+  "_id": {
+    "$oid": "626840673752a1da09031a79"
+  },
+  "Location": "Flat",
+  "Devices": 16,
+  "Date": "26-Apr-2022",
+  "Time": "19:56:39"
+},{
+  "_id": {
+    "$oid": "626840703752a1da09031a7a"
+  },
+  "Location": "PI_2",
+  "Devices": 0,
+  "Date": "26-Apr-2022",
+  "Time": "19:56:48"
+},{
+  "_id": {
+    "$oid": "62684edbfad2613a4bfcce80"
+  },
+  "Location": "Flat",
+  "Devices": 15,
+  "Date": "26-Apr-2022",
+  "Time": "20:58:19"
+},{
+  "_id": {
+    "$oid": "62684ee5fad2613a4bfcce81"
+  },
+  "Location": "PI_2",
+  "Devices": 0,
+  "Date": "26-Apr-2022",
+  "Time": "20:58:29"
+}]
