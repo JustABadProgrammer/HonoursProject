@@ -1,0 +1,8 @@
+[{
+  "_id": {
+    "$oid": "6206e76f13ba4774d2f211ae"
+  },
+  "ip": "192.168.1",
+  "Location": "Flat",
+  "Location_ID": "001"
+}]

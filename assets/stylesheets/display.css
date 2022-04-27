@@ -3,14 +3,13 @@
 }
 
 #pageContent{
-    display: inline-block;
-    background-color: green;
+    display: block;
 }
+
 #data{
-    /*border: 1px solid black;
-    background-color: red;*/
-    height: 900px;
+    height: 850px;
     width: 720px;
+    position: relative;
 }
 
 #floorPlan, #MaskDrawing{
@@ -19,16 +18,12 @@
     left: 0;
     top: 0;
 }
+
 #floorPlan{
-    border: 2px solid black;
     width: 100%;
 }
 #recOnTxt{
     position: relative;
-}
-
-.retuenColor{
-z-index: 50;
 }
 
 .infoDiv{
@@ -43,11 +38,6 @@ z-index: 50;
     z-index:99;
     position: absolute;
 }
-/*
-#venueInformation{
-    border: 2px solid black;
-    background-color: rgb(235, 235, 235);
-}*/
 
 .venueImage{
     width: 50px;
@@ -61,4 +51,25 @@ z-index: 50;
 .imgDiv{
     position: absolute;
     z-index:50;
+}
+
+#HeatmapExample{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 70px;
+    display: flex;
+}
+
+#ColorGradient{
+    width: 50%;
+    height: 20px;
+    background: linear-gradient(to right, rgb(500,0,0) 0%, black 100%);
+    margin: 30px;
+    border: 1px solid black;
+}
+
+
+#Busy{
+    float: right;
 }

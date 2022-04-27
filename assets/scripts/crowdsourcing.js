@@ -33,8 +33,6 @@ $(document).ready(function () {
             console.log(reasonable)
             niceName = obj["Name"];
             document.title = niceName;
-            top = obj["Too_On_Img"]
-            left = obj["Left_On_Img"]
             $("#LogoImage").attr("src", "images/" + loc + ".png");
             $('#dataInput').fadeIn(300);
         },
